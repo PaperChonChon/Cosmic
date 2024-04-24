@@ -161,8 +161,8 @@ server:
     #Database Configuration
     DB_URL_FORMAT: "jdbc:mysql://%s:3306/cosmic" # If the docker ENV for DB_HOST is anything but "db", this string format should be changed from 3306 to 3307 (or whichever port it was changed to in docker) 
     DB_HOST: "localhost" 
-    DB_USER: "cosmic_server"
-    DB_PASS: "snailshell"
+    DB_USER: "root"
+    DB_PASS: "P@ssw0rd"
     INIT_CONNECTION_POOL_TIMEOUT: 90    # Seconds
 
     #Login Configuration
@@ -196,10 +196,12 @@ server:
     LOGIN_ATTEMPT_DURATION: 120         #Period in seconds the login attempt remains registered on the system.
 
     #Ip Configuration
-    HOST: 127.0.0.1                 #WAN IPv4 address
-    LANHOST: 127.0.0.1              #LAN IPv4 address
+    HOST: 103.241.62.8                 #WAN IPv4 address
+    LANHOST: 103.241.62.8              #LAN IPv4 address
     LOCALHOST: 127.0.0.1            #Loopback IPv4 address
     GMSERVER: false
+    #103.241.62.8
+    #192.168.50.1
 
     #Other configuration
     SHUTDOWNHOOK: true
@@ -305,7 +307,7 @@ server:
     PARTY_BONUS_EXP_RATE: 1.0            #Rate for the party exp bonus reward.
 
     #Miscellaneous Configuration
-    TIMEZONE: GMT
+    TIMEZONE: GMT+8
     CHARSET: US-ASCII                          # Is loaded first, so applies to the rest of this config. Defaults to US-ASCII if invalid or not set.
     USE_DISPLAY_NUMBERS_WITH_COMMA: true          #Enforce comma on displayed strings (use this when USE_UNITPRICE_WITH_COMMA is active and you still want to display comma-separated values).
     USE_UNITPRICE_WITH_COMMA: true                #Set this accordingly with the layout of the unitPrices on Item.wz XML's, whether it's using commas or dots to represent fractions.
@@ -343,7 +345,7 @@ server:
 
     #Some Gameplay Enhancing Configurations
     #Scroll Configuration
-    USE_PERFECT_GM_SCROLL: true     #Scrolls from GMs never uses up slots nor fails.
+    USE_PERFECT_GM_SCROLL: false     #Scrolls from GMs never uses up slots nor fails.
     USE_PERFECT_SCROLLING: false     #Scrolls doesn't use slots upon failure.
     USE_ENHANCED_CHSCROLL: false     #Equips even more powerful with chaos upgrade.
     USE_ENHANCED_CRAFTING: false     #Apply chaos scroll on every equip crafted.

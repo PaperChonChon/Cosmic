@@ -169,7 +169,7 @@ public class Character extends AbstractCharacterObject {
     private final Pet[] pets = new Pet[3];
     private PlayerShop playerShop = null;
     private Shop shop = null;
-    private SkinColor skinColor = SkinColor.NORMAL;
+    private SkinColor skinColor = SkinColor.LIGHT;
     private Storage storage = null;
     private Trade trade = null;
     private MonsterBook monsterbook;
@@ -261,6 +261,33 @@ public class Character extends AbstractCharacterObject {
     private boolean pendingNameChange; //only used to change name on logout, not to be relied upon elsewhere
     private long loginTime;
     private boolean chasing = false;
+    private String dataSearch;
+    private ArrayList<Integer> dataSearchArr;
+    private String dataSearchType;
+
+    public String getDataSearch() {
+        return dataSearch;
+    }
+
+    public void setDataSearch(String result) {
+        dataSearch = result;
+    }
+
+    public ArrayList<Integer> getDataSearchArr() {
+        return dataSearchArr;
+    }
+
+    public void setDataSearchArr(ArrayList<Integer> arr) {
+        dataSearchArr = arr;
+    }
+
+    public String getDataSearchType() {
+        return dataSearchType;
+    }
+
+    public void setDataSearchType(String dataSearchType) {
+        this.dataSearchType = dataSearchType;
+    }
 
     private Character() {
         super.setListener(new AbstractCharacterListener() {
@@ -6181,7 +6208,7 @@ public class Character extends AbstractCharacterObject {
     }
 
     public boolean isGM() {
-        return gmLevel > 1;
+        return gmLevel > 2;
     }
 
     public boolean isHidden() {

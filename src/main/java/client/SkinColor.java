@@ -22,14 +22,34 @@
 package client;
 
 public enum SkinColor {
-    NORMAL(0),
-    DARK(1),
-    BLACK(2),
+    LIGHT(0),
+    TAN(1),
+    DARK(2),
     PALE(3),
-    BLUE(4),
+    BLUE_GRAY(4),
     GREEN(5),
-    WHITE(9),
-    PINK(10);
+    GHOSTLY(9),
+    FAIR(10),
+    CLAY(11),
+    ALABASTER(12),
+    PALE_GRAY(13),
+    ROSY(15),
+    FLUSHED(16),
+    SOFT_LAVENDER(18),
+    BLUSHING_LAVENDER(19),
+    COWHIDE_BLACK(20),
+    COWHIDE_PINK(21),
+    COWHIDE_BROWN(22),
+    COWHIDE_BEIGE(23),
+    JADE_MARBLE(24),
+    GOLD_MARBLE(25),
+    SILVER_MARBLE(26),
+    BRONZE_MARBLE(27),
+    SPINEL(28),
+    AMETHYST(29),
+    ATHLETIC(30),
+    APATITE(32);
+
 
     final int id;
 

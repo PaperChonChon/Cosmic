@@ -436,7 +436,7 @@ public class CashCosmeticsChecker {
             int itemid = Integer.parseInt(s[0]);
 
             String name;
-            if (itemid < 30000) {
+            if (itemid < 40000) {
                 itemid = itemid - ((itemid / 100) % 10) * 100;
 
                 int idx = s[1].lastIndexOf(" ");

@@ -45,11 +45,11 @@ function enter(pi) {
 
     if (pCol == parseInt(comb.substring(pRow, pRow + 1), 10)) {    //climb
         pi.playPortalSound();
-        pi.warp(pi.getMapId(), (pRow % 4 != 0) ? pi.getPortal().getId() + 4 : (pRow / 4));
+        pi.warp(pi.getMapId(), ((pRow % 4 != 0) ? pi.getPortal().getId() + 4 : (pRow / 4)));
     } else {    //fail
         pRow--;
         pi.playPortalSound();
-        pi.warp(pi.getMapId(), (pRow / 4) > 1 ? (pRow / 4) : 5);  // thanks Chloek3, seth1 for noticing next plaform issues
+        pi.warp(pi.getMapId(), ((pRow / 4) >= 1 ? Math.floor(pRow / 4) : 5));  // thanks Chloek3, seth1 for noticing next plaform issues
     }
 
     return true;

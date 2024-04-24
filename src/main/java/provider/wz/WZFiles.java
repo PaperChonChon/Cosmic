@@ -8,6 +8,8 @@ public enum WZFiles {
     ETC("Etc"),
     ITEM("Item"),
     CHARACTER("Character"),
+    HAIR("Character.wz\\Hair"),
+    FACE("Character.wz\\Face"),
     STRING("String"),
     LIST("List"),
     MOB("Mob"),
@@ -23,7 +25,12 @@ public enum WZFiles {
     private final String fileName;
 
     WZFiles(String name) {
-        this.fileName = name + ".wz";
+        if (name.equals("Character.wz\\Hair") || name.equals("Character.wz\\Face")) {
+            this.fileName = name;
+        }
+        else {
+            this.fileName = name + ".wz";
+        }
     }
 
     public Path getFile() {

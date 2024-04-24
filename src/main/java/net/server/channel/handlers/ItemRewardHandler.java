@@ -46,9 +46,12 @@ public final class ItemRewardHandler extends AbstractPacketHandler {
     public final void handlePacket(InPacket p, Client c) {
         byte slot = (byte) p.readShort();
         int itemId = p.readInt(); // will load from xml I don't care.
-
         Item it = c.getPlayer().getInventory(InventoryType.USE).getItem(slot);   // null check here thanks to Thora
+        System.out.println("it: "+it);
+        Item it1 = c.getPlayer().getInventory(InventoryType.CASH).getItem(slot);
+        System.out.println("it1: "+it1);
         if (it == null || it.getItemId() != itemId || c.getPlayer().getInventory(InventoryType.USE).countById(itemId) < 1) {
+            System.out.println("item is not in USE, null");
             return;
         }
 
@@ -59,7 +62,7 @@ public final class ItemRewardHandler extends AbstractPacketHandler {
                 c.sendPacket(PacketCreator.getShowInventoryFull());
                 break;
             }
-            if (Randomizer.nextInt(rewards.getLeft()) < reward.prob) {//Is it even possible to get an item with prob 1?
+            if (Randomizer.nextInt(rewards.getLeft()) <= reward.prob) {//Is it even possible to get an item with prob 1?
                 if (ItemConstants.getInventoryType(reward.itemid) == InventoryType.EQUIP) {
                     final Item item = ii.getEquipById(reward.itemid);
                     if (reward.period != -1) {

@@ -55,7 +55,7 @@ function action(mode, type, selection) {
         if (status == 0) {
             cm.sendSimple("Hello I'm Mino. If you have either a #b#t5150005##k or a #b#t5151005##k, then please let me take care of your hair. Choose what you want to do with it.\r\n#L1#Haircut: #i5150005##t5150005##l\r\n#L2#Dye your hair: #i5151005##t5151005##l");
         } else if (status == 1) {
-            if (selection == 1) {
+            if (selection == 1 && status == 1) {
                 beauty = 1;
                 hairnew = Array();
                 if (cm.getPlayer().getGender() == 0) {
@@ -71,7 +71,7 @@ function action(mode, type, selection) {
                     }
                 }
                 cm.sendStyle("I can totally change up your hairstyle and make it look so good. Why don't you change it up a bit? With #b#t5150005##k, I'll take care of the rest for you. Choose the style of your liking!", hairnew);
-            } else if (selection == 2) {
+            } else if (selection == 2 && status == 1) {
                 beauty = 2;
                 haircolor = Array();
                 var current = parseInt(cm.getPlayer().getHair() / 10) * 10;

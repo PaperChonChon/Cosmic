@@ -7,7 +7,11 @@ public class ItemId {
     public static final int PENDANT_OF_THE_SPIRIT = 1122017;
     public static final int HEART_SHAPED_CHOCOLATE = 5110000;
     public static final int HAPPY_BIRTHDAY = 2022153;
-    public static final int FISHING_CHAIR = 3011000;
+    public static final int FISHING_CHAIR = 3015635;
+    public static final int SPIRIT_FISHING_CHAIR = 3015639;
+    public static final int DREAMY_FISHING_CHAIR = 3015640;
+    public static final int DEEP_SEA_FISHING_CHAIR = 3015641;
+    public static final int HATSAR_FISHING_CHAIR = 3015435;
     public static final int MINI_GAME_BASE = 4080000;
     public static final int MATCH_CARDS = 4080100;
     public static final int MAGICAL_MITTEN = 1472063;
@@ -59,11 +63,11 @@ public class ItemId {
 
     // Chair
     public static final int RELAXER = 3010000;
-    private static final int CHAIR_MIN = RELAXER;
-    private static final int CHAIR_MAX = FISHING_CHAIR;
+    //private static final int CHAIR_MIN = RELAXER;
+    //private static final int CHAIR_MAX = FISHING_CHAIR;
 
     public static boolean isChair(int itemId) {
-        return itemId >= CHAIR_MIN && itemId <= CHAIR_MAX;
+        return (itemId >= 3010000 && itemId < 3020000) || (itemId >= 3040000 && itemId < 3050000) || (itemId >= 3060000 && itemId < 3070000) || (itemId >= 3080000 && itemId < 3140000) || (itemId >= 3600000 && itemId < 3900000) || (itemId >= 3990000 && itemId < 4000000) || (itemId >= 5204000 && itemId < 5205000);
         // alt: return itemId / 10000 == 301;
     }
 

@@ -31,6 +31,7 @@ public class MapId {
     public static final int LITH_HARBOUR = 104000000;
     public static final int SLEEPYWOOD = 105040300;
     public static final int MUSHROOM_KINGDOM = 106020000;
+    public static final int ZIPANGU = 800000000;
     public static final int FLORINA_BEACH = 110000000;
     public static final int EREVE = 130000000;
     public static final int KERNING_SQUARE = 103040000;

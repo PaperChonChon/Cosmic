@@ -35,7 +35,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class XMLWZFile implements DataProvider {
-	private static final Logger log = LoggerFactory.getLogger(DataProvider.class);
+    //private final Logger log = LoggerFactory.getLogger(DataProvider.class);
 	private final Path root;
     private final WZDirectoryEntry rootForNavigation;
 
@@ -59,7 +59,8 @@ public class XMLWZFile implements DataProvider {
                 }
             }
         } catch (IOException e) {
-            log.warn("Can not open file/directory at " + lroot.toAbsolutePath().toString());
+            //log.warn("Can not open file/directory at " + lroot.toAbsolutePath().toString());
+            System.out.println("Can not open file/directory at " + lroot.toAbsolutePath().toString());
         }
     }
 

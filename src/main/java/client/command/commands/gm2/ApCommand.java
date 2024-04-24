@@ -37,7 +37,7 @@ public class ApCommand extends Command {
     public void execute(Client c, String[] params) {
         Character player = c.getPlayer();
         if (params.length < 1) {
-            player.yellowMessage("Syntax: !ap [<playername>] <newap>");
+            player.yellowMessage("Syntax: @ap [<playername>] <newap>");
             return;
         }
 

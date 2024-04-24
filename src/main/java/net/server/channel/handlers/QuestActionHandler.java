@@ -59,6 +59,8 @@ public final class QuestActionHandler extends AbstractPacketHandler {
             Point npcP = npc.getPosition();
             if (Math.abs(npcP.getX() - playerP.getX()) > 1200 || Math.abs(npcP.getY() - playerP.getY()) > 800) {
                 player.dropMessage(5, "Approach the NPC to fulfill this quest operation.");
+                player.dropMessage(5, "NPC position: "+npcP.getX()+","+npcP.getY());
+                player.dropMessage(5, "Player position: "+playerP.getX()+","+playerP.getY());
                 return false;
             }
         }

@@ -73,7 +73,7 @@ function action(mode, type, selection) {
                     cm.dispose();
                 } else {
                     var eli = em.getEligibleParty(cm.getParty());
-                    if (eli.size() > 0) {
+                    if (eli.size() >= 0) {
                         if (!em.startInstance(cm.getParty(), cm.getPlayer().getMap(), 1)) {
                             cm.sendOk("Another party has already entered the #rParty Quest#k in this channel. Please try another channel, or wait for the current party to finish.");
                         }

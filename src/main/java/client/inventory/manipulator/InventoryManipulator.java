@@ -451,7 +451,8 @@ public class InventoryManipulator {
 
     public static void removeById(Client c, InventoryType type, int itemId, int quantity, boolean fromDrop, boolean consume) {
         int removeQuantity = quantity;
-        Inventory inv = c.getPlayer().getInventory(type);
+        Character chr = c.getPlayer();
+        Inventory inv = chr.getInventory(type);
         int slotLimit = type == InventoryType.EQUIPPED ? 128 : inv.getSlotLimit();
 
         for (short i = 0; i <= slotLimit; i++) {
@@ -461,10 +462,12 @@ public class InventoryManipulator {
                     if (removeQuantity <= item.getQuantity()) {
                         removeFromSlot(c, type, item.getPosition(), (short) removeQuantity, fromDrop, consume);
                         removeQuantity = 0;
+                        chr.message("Item removed");
                         break;
                     } else {
                         removeQuantity -= item.getQuantity();
                         removeFromSlot(c, type, item.getPosition(), item.getQuantity(), fromDrop, consume);
+                        chr.message("Item removed");
                     }
                 }
             }

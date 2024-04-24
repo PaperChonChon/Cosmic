@@ -223,48 +223,49 @@ public class CommandsExecutor {
 
         addCommand("recharge", 2, RechargeCommand.class);
         addCommand("whereami", 2, WhereaMiCommand.class);
-        addCommand("hide", 2, HideCommand.class);
-        addCommand("unhide", 2, UnHideCommand.class);
+        addCommand("empowerme", 2, EmpowerMeCommand.class);
+        addCommand("search", 2, SearchCommand.class);
+        addCommand("warp", 2, WarpCommand.class);
+        addCommand("gachalist", GachaListCommand.class);
+        addCommand("unbug", 2, UnBugCommand.class);
+        addCommand("loot",2, LootCommand.class);
         addCommand("sp", 2, SpCommand.class);
         addCommand("ap", 2, ApCommand.class);
-        addCommand("empowerme", 2, EmpowerMeCommand.class);
-        addCommand("buffmap", 2, BuffMapCommand.class);
-        addCommand("buff", 2, BuffCommand.class);
-        addCommand("bomb", 2, BombCommand.class);
-        addCommand("dc", 2, DcCommand.class);
-        addCommand("cleardrops", 2, ClearDropsCommand.class);
-        addCommand("clearslot", 2, ClearSlotCommand.class);
-        addCommand("clearsavelocs", 2, ClearSavedLocationsCommand.class);
-        addCommand("warp", 2, WarpCommand.class);
-        addCommand(new String[]{"warphere", "summon"}, 2, SummonCommand.class);
-        addCommand(new String[]{"warpto", "reach", "follow"}, 2, ReachCommand.class);
-        addCommand("gmshop", 2, GmShopCommand.class);
-        addCommand("heal", 2, HealCommand.class);
-        addCommand("item", 2, ItemCommand.class);
-        addCommand("drop", 2, ItemDropCommand.class);
-        addCommand("level", 2, LevelCommand.class);
-        addCommand("levelpro", 2, LevelProCommand.class);
-        addCommand("setslot", 2, SetSlotCommand.class);
-        addCommand("setstat", 2, SetStatCommand.class);
-        addCommand("maxstat", 2, MaxStatCommand.class);
-        addCommand("maxskill", 2, MaxSkillCommand.class);
-        addCommand("resetskill", 2, ResetSkillCommand.class);
-        addCommand("search", 2, SearchCommand.class);
-        addCommand("jail", 2, JailCommand.class);
-        addCommand("unjail", 2, UnJailCommand.class);
         addCommand("job", 2, JobCommand.class);
-        addCommand("unbug", 2, UnBugCommand.class);
-        addCommand("id", 2, IdCommand.class);
-        addCommand("gachalist", GachaListCommand.class);
-        addCommand("loot", LootCommand.class);
-        addCommand("mobskill", MobSkillCommand.class);
-
+        addCommand("givems", 2, GiveMesosCommand.class);
+        addCommand("givenx", 2, GiveNxCommand.class);
+        addCommand("delevel", 2, DeLevelCommand.class);
+        addCommand("level", 2, LevelCommand.class);
         commandsNameDesc.add(levelCommandsCursor);
     }
 
     private void registerLv3Commands() {
         levelCommandsCursor = new Pair<>(new ArrayList<String>(), new ArrayList<String>());
 
+        addCommand("item", 3, ItemCommand.class);
+        addCommand("hide", 3, HideCommand.class);
+        addCommand("unhide", 3, UnHideCommand.class);
+        addCommand("drop", 3, ItemDropCommand.class);
+        addCommand("buffmap", 3, BuffMapCommand.class);
+        addCommand("buff", 3, BuffCommand.class);
+        addCommand("bomb", 3, BombCommand.class);
+        addCommand("dc", 3, DcCommand.class);
+        addCommand("cleardrops", 3, ClearDropsCommand.class);
+        addCommand("clearslot", 3, ClearSlotCommand.class);
+        addCommand("clearsavelocs", 3, ClearSavedLocationsCommand.class);
+        addCommand(new String[]{"warphere", "summon"}, 3, SummonCommand.class);
+        addCommand(new String[]{"warpto", "reach", "follow"}, 3, ReachCommand.class);
+        addCommand("gmshop", 3, GmShopCommand.class);
+        addCommand("heal", 3, HealCommand.class);
+        addCommand("setslot", 3, SetSlotCommand.class);
+        addCommand("setstat", 3, SetStatCommand.class);
+        addCommand("maxstat", 3, MaxStatCommand.class);
+        addCommand("maxskill", 3, MaxSkillCommand.class);
+        addCommand("resetskill", 3, ResetSkillCommand.class);
+        addCommand("jail", 3, JailCommand.class);
+        addCommand("unjail", 3, UnJailCommand.class);
+        addCommand("id", 3, IdCommand.class);
+        addCommand("mobskill", MobSkillCommand.class);
         addCommand("debuff", 3, DebuffCommand.class);
         addCommand("fly", 3, FlyCommand.class);
         addCommand("spawn", 3, SpawnCommand.class);
@@ -287,9 +288,7 @@ public class CommandsExecutor {
         addCommand("togglecoupon", 3, ToggleCouponCommand.class);
         addCommand("togglewhitechat", 3, ChatCommand.class);
         addCommand("fame", 3, FameCommand.class);
-        addCommand("givenx", 3, GiveNxCommand.class);
         addCommand("givevp", 3, GiveVpCommand.class);
-        addCommand("givems", 3, GiveMesosCommand.class);
         addCommand("giverp", 3, GiveRpCommand.class);
         addCommand("expeds", 3, ExpedsCommand.class);
         addCommand("kill", 3, KillCommand.class);
@@ -324,6 +323,7 @@ public class CommandsExecutor {
         addCommand("timerall", 3, TimerAllCommand.class);
         addCommand("warpmap", 3, WarpMapCommand.class);
         addCommand("warparea", 3, WarpAreaCommand.class);
+        addCommand("removeitem", 3, RemoveItemCommand.class);
 
         commandsNameDesc.add(levelCommandsCursor);
     }

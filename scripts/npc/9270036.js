@@ -46,7 +46,7 @@ function action(mode, type, selection) {
         cm.dispose();
     } else {
         status++;
-        if (selection == 1) {
+        if (selection == 1 && status == 1) {
             beauty = 1;
             hairnew = Array();
             if (cm.getPlayer().getGender() == 0) {
@@ -59,7 +59,7 @@ function action(mode, type, selection) {
                 }
             }
             cm.sendStyle("I can completely change the look of your hair. Aren't you ready for a change? With #b#t5150033##k, I'll take care of the rest for you. Choose the style of your liking!", hairnew);
-        } else if (selection == 2) {
+        } else if (selection == 2 && status == 1) {
             beauty = 2;
             haircolor = Array();
             var current = parseInt(cm.getPlayer().getHair() / 10) * 10;

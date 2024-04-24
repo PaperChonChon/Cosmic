@@ -47,14 +47,14 @@ function action(mode, type, selection) {
         cm.dispose();
     } else {
         status++;
-        if (selection == 1) {
+        if (selection == 1 && status == 1) {
             beauty = 1;
             hairnew = Array();
-            for (var id = 0; id < cm.getPlayer().getGender() == 0 ? mhair_r.length : fhair_r.length; id++) {
-                pushIfItemExists(hairnew, cm.getPlayer().getGender == 0 ? mhair_r[i] : fhair_r[i] + parseInt(cm.getPlayer().getHair() % 10));
+            for (var id = 0; id < (cm.getPlayer().getGender() == 0 ? mhair_r.length : fhair_r.length); id++) {
+                pushIfItemExists(hairnew, (cm.getPlayer().getGender() == 0 ? mhair_r[id] : fhair_r[id]) + parseInt(cm.getPlayer().getHair() % 10));
             }
             cm.sendYesNo("If you use the REG coupon your hair will change RANDOMLY with a chance to obtain a new experimental style that I came up with. Are you going to use #b#t5150032##k and really change your hairstyle?");
-        } else if (selection == 2) {
+        } else if (selection == 2 && status == 1) {
             beauty = 2;
             haircolor = Array();
             var current = parseInt(cm.getPlayer().getHair() / 10) * 10;

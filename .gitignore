@@ -2,6 +2,11 @@
 .idea/
 *.iml
 /target
+/current_backup/
+/tools/
+*.bat
+*.txt
+*.jpg
 
 # build files
 /build/

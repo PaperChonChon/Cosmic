@@ -1,394 +1,4548 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="0524.img">
-  <imgdir name="05240000">
-    <imgdir name="info">
-      <canvas name="icon" width="29" height="29">
-        <vector name="origin" x="-2" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="29" height="27">
-        <vector name="origin" x="-2" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240000">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="29">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="27">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000011"/>
+            <int name="1" value="5000007"/>
+            <int name="2" value="5000013"/>
+            <int name="3" value="5000021"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="4" value="5000107"/>
+            <int name="5" value="5000078"/>
+            <int name="6" value="5000254"/>
+            <int name="7" value="5000362"/>
+            <int name="8" value="5000363"/>
+            <int name="9" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000011"/>
-      <int name="1" value="5000007"/>
-      <int name="2" value="5000013"/>
-      <int name="3" value="5000021"/>
+    <imgdir name="05240001">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="28">
+                <vector name="origin" x="-3" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="24">
+                <vector name="origin" x="-3" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000017"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000007"/>
+            <int name="2" value="5000107"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240001">
-    <imgdir name="info">
-      <canvas name="icon" width="27" height="28">
-        <vector name="origin" x="-3" y="28"/>
-      </canvas>
-      <canvas name="iconRaw" width="27" height="24">
-        <vector name="origin" x="-3" y="28"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240002">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="29">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="26">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000001"/>
+            <int name="1" value="5000006"/>
+            <int name="2" value="5000007"/>
+            <int name="3" value="5000018"/>
+            <int name="4" value="5000037"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="5" value="5000107"/>
+            <int name="6" value="5000149"/>
+            <int name="7" value="5000362"/>
+            <int name="8" value="5000363"/>
+            <int name="9" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000017"/>
-      <int name="1" value="5000007"/>
+    <imgdir name="05240003">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="33">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="31">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000008"/>
+            <int name="1" value="5000007"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000107"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240002">
-    <imgdir name="info">
-      <canvas name="icon" width="29" height="29">
-        <vector name="origin" x="-2" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="29" height="26">
-        <vector name="origin" x="-2" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240004">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="29">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="26">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="0" value="5000000"/>
+            <int name="1" value="5000004"/>
+            <int name="2" value="5000007"/>
+            <int name="3" value="5000023"/>
+            <int name="4" value="5000210"/>
+            <int name="5" value="5000459"/>
+            <int name="6" value="5000107"/>
+            <int name="7" value="5000079"/>
+            <int name="8" value="5000080"/>
+            <int name="9" value="5000147"/>
+            <int name="10" value="5000362"/>
+            <int name="11" value="5000363"/>
+            <int name="12" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000001"/>
-      <int name="1" value="5000006"/>
-      <int name="2" value="5000007"/>
-      <int name="3" value="5000018"/>
-      <int name="4" value="5000037"/>
+    <imgdir name="05240005">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="28">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000002"/>
+            <int name="1" value="5000005"/>
+            <int name="2" value="5000007"/>
+            <int name="3" value="5000013"/>
+            <int name="4" value="5000014"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="5" value="5000015"/>
+            <int name="6" value="5000034"/>
+            <int name="7" value="5000107"/>
+            <int name="8" value="5000117"/>
+            <int name="9" value="5000254"/>
+            <int name="10" value="5000362"/>
+            <int name="11" value="5000363"/>
+            <int name="12" value="5000364"/>
+            <int name="13" value="5000194"/>
+            <int name="14" value="5000195"/>
+            <int name="15" value="5000114"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240003">
-    <imgdir name="info">
-      <canvas name="icon" width="30" height="33">
-        <vector name="origin" x="0" y="33"/>
-      </canvas>
-      <canvas name="iconRaw" width="28" height="31">
-        <vector name="origin" x="0" y="33"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240006">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="23">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000003"/>
+            <int name="1" value="5000009"/>
+            <int name="2" value="5000010"/>
+            <int name="3" value="5000007"/>
+            <int name="4" value="5000012"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="5" value="5000044"/>
+            <int name="6" value="5000101"/>
+            <int name="7" value="5000107"/>
+            <int name="8" value="5000362"/>
+            <int name="9" value="5000363"/>
+            <int name="10" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000008"/>
-      <int name="1" value="5000007"/>
+    <imgdir name="05240007">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="31">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="29">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000020"/>
+            <int name="1" value="5000007"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000107"/>
+            <int name="4" value="5000150"/>
+            <int name="5" value="5000172"/>
+            <int name="6" value="5000362"/>
+            <int name="7" value="5000363"/>
+            <int name="8" value="5000364"/>
+            <int name="9" value="5002009"/>
+            <int name="10" value="5000102"/>
+            <int name="2" value="5002238"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240004">
-    <imgdir name="info">
-      <canvas name="icon" width="28" height="29">
-        <vector name="origin" x="-2" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="28" height="26">
-        <vector name="origin" x="-2" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240008">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000022"/>
+            <int name="1" value="5000362"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000000"/>
-      <int name="1" value="5000004"/>
-      <int name="2" value="5000007"/>
-      <int name="3" value="5000023"/>
+    <imgdir name="05240009">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="29">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="26">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000024"/>
+            <int name="1" value="5000007"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000107"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240005">
-    <imgdir name="info">
-      <canvas name="icon" width="28" height="30">
-        <vector name="origin" x="-2" y="30"/>
-      </canvas>
-      <canvas name="iconRaw" width="27" height="28">
-        <vector name="origin" x="-2" y="30"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240010">
+        <imgdir name="info">
+            <canvas name="icon" width="37" height="36">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="37" height="36">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000025"/>
+            <int name="1" value="5000362"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="4" value="5000854"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000002"/>
-      <int name="1" value="5000005"/>
-      <int name="2" value="5000007"/>
-      <int name="3" value="5000013"/>
-      <int name="4" value="5000014"/>
-      <int name="5" value="5000015"/>
-      <int name="6" value="5000034"/>
+    <imgdir name="05240011">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="36">
+                <vector name="origin" x="0" y="36"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="38">
+                <vector name="origin" x="0" y="37"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000026"/>
+            <int name="1" value="5000362"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240006">
-    <imgdir name="info">
-      <canvas name="icon" width="29" height="27">
-        <vector name="origin" x="-1" y="27"/>
-      </canvas>
-      <canvas name="iconRaw" width="29" height="23">
-        <vector name="origin" x="-1" y="27"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240016">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="30">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000040"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000003"/>
-      <int name="1" value="5000009"/>
-      <int name="2" value="5000010"/>
-      <int name="3" value="5000007"/>
-      <int name="4" value="5000012"/>
-      <int name="5" value="5000044"/>
-      <int name="6" value="5000101"/>
+    <imgdir name="05240017">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="31">
+                <vector name="origin" x="1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="30">
+                <vector name="origin" x="1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000041"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000055"/>
+            <int name="2" value="5000265"/>
+            <int name="111" value="5000362"/>
+            <int name="112" value="5000363"/>
+            <int name="113" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240007">
-    <imgdir name="info">
-      <canvas name="icon" width="27" height="31">
-        <vector name="origin" x="-3" y="31"/>
-      </canvas>
-      <canvas name="iconRaw" width="27" height="29">
-        <vector name="origin" x="-3" y="31"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240018">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="29">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="27">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000042"/>
+            <int name="1" value="5000046"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000020"/>
-      <int name="1" value="5000007"/>
-      <int name="2" value="5000102"/>
+    <imgdir name="05240019">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000043"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240008">
-    <imgdir name="info">
-      <canvas name="icon" width="30" height="33">
-        <vector name="origin" x="0" y="32"/>
-      </canvas>
-      <canvas name="iconRaw" width="30" height="33">
-        <vector name="origin" x="0" y="32"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240029">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000068"/>
+            <int name="1" value="5000362"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000022"/>
+    <imgdir name="05240030">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="26">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="25">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000065"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240009">
-    <imgdir name="info">
-      <canvas name="icon" width="33" height="29">
-        <vector name="origin" x="0" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="33" height="26">
-        <vector name="origin" x="0" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240032">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="28">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="27">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000072"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000024"/>
-      <int name="1" value="5000007"/>
+    <imgdir name="05240035">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="32">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000083"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000111"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240010">
-    <imgdir name="info">
-      <canvas name="icon" width="37" height="36">
-        <vector name="origin" x="2" y="34"/>
-      </canvas>
-      <canvas name="iconRaw" width="37" height="36">
-        <vector name="origin" x="2" y="34"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240039">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000084"/>
+            <int name="1" value="5000089"/>
+            <int name="2" value="5000090"/>
+            <int name="3" value="5000091"/>
+            <int name="4" value="5000092"/>
+            <int name="5" value="5000093"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="6" value="5000120"/>
+            <int name="7" value="5000121"/>
+            <int name="8" value="5000122"/>
+            <int name="9" value="5000362"/>
+            <int name="10" value="5000363"/>
+            <int name="11" value="5000364"/>
+            <int name="12" value="5000623"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000025"/>
+    <imgdir name="05240042">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="28">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000201"/>
+            <int name="1" value="5000246"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000266"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240011">
-    <imgdir name="info">
-      <canvas name="icon" width="34" height="36">
-        <vector name="origin" x="0" y="36"/>
-      </canvas>
-      <canvas name="iconRaw" width="34" height="38">
-        <vector name="origin" x="0" y="37"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240043">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="28">
+                <vector name="origin" x="-3" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="24" height="27">
+                <vector name="origin" x="-5" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000202"/>
+            <int name="1" value="5000207"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000026"/>
+    <imgdir name="05240047">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="28">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="25">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000206"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000134"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240012">
-    <imgdir name="info">
-      <canvas name="icon" width="30" height="31">
-        <vector name="origin" x="-1" y="31"/>
-      </canvas>
-      <canvas name="iconRaw" width="30" height="28">
-        <vector name="origin" x="-1" y="31"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240049">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="28">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000211"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000029"/>
-      <int name="1" value="5000030"/>
-      <int name="2" value="5000031"/>
-      <int name="3" value="5000032"/>
-      <int name="4" value="5000033"/>
+    <imgdir name="05240053">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="31">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="29">
+                <vector name="origin" x="-3" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000215"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000151"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240013">
-    <imgdir name="info">
-      <canvas name="icon" width="30" height="31">
-        <vector name="origin" x="-1" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="30" height="30">
-        <vector name="origin" x="-1" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240054">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="30">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="28">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000216"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000255"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000036"/>
+    <imgdir name="05240055">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="28">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000204"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000430"/>
+            <int name="2" value="5000431"/>
+            <int name="3" value="5000144"/>
+            <int name="4" value="5000362"/>
+            <int name="5" value="5000363"/>
+            <int name="6" value="5000364"/>
+            <int name="7" value="5000645"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240015">
-    <imgdir name="info">
-      <canvas name="icon" width="33" height="32">
-        <vector name="origin" x="0" y="32"/>
-      </canvas>
-      <canvas name="iconRaw" width="33" height="32">
-        <vector name="origin" x="0" y="32"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240056">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000205"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000145"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="5" value="5000646"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000039"/>
+    <imgdir name="05240059">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000228"/>
+            <int name="1" value="5000281"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="6" value="5000304"/>
+            <int name="5" value="5000301"/>
+            <int name="7" value="5000307"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240017">
-    <imgdir name="info">
-      <canvas name="icon" width="34" height="31">
-        <vector name="origin" x="1" y="31"/>
-      </canvas>
-      <canvas name="iconRaw" width="34" height="30">
-        <vector name="origin" x="1" y="31"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240060">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000229"/>
+            <int name="1" value="5000282"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="6" value="5000305"/>
+            <int name="5" value="5000302"/>
+            <int name="7" value="5000308"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000041"/>
-      <int name="1" value="5000055"/>
+    <imgdir name="05240061">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000230"/>
+            <int name="1" value="5000283"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="6" value="5000303"/>
+            <int name="5" value="5000300"/>
+            <int name="7" value="5000306"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240018">
-    <imgdir name="info">
-      <canvas name="icon" width="32" height="29">
-        <vector name="origin" x="-1" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="32" height="27">
-        <vector name="origin" x="-1" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240065">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="29">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="0" value="5000237"/>
+            <int name="1" value="5000468"/>
+            <int name="2" value="5000167"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000042"/>
-      <int name="1" value="5000046"/>
-      <int name="2" value="5000100"/>
+    <imgdir name="05240067">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="33">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000239"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240020">
-    <imgdir name="info">
-      <canvas name="icon" width="30" height="28">
-        <vector name="origin" x="-3" y="31"/>
-      </canvas>
-      <canvas name="iconRaw" width="30" height="27">
-        <vector name="origin" x="-3" y="31"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240069">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="29">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="27">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000243"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000045"/>
+    <imgdir name="05240070">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="26">
+                <vector name="origin" x="-1" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="24">
+                <vector name="origin" x="-1" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000244"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240021">
-    <imgdir name="info">
-      <canvas name="icon" width="34" height="27">
-        <vector name="origin" x="1" y="28"/>
-      </canvas>
-      <canvas name="iconRaw" width="34" height="27">
-        <vector name="origin" x="1" y="28"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240071">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="23">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000245"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000048"/>
-      <int name="1" value="5000049"/>
-      <int name="2" value="5000050"/>
-      <int name="3" value="5000051"/>
-      <int name="4" value="5000052"/>
-      <int name="5" value="5000053"/>
+    <imgdir name="05240072">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="32">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000152"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240023">
-    <imgdir name="info">
-      <canvas name="icon" width="29" height="26">
-        <vector name="origin" x="-1" y="29"/>
-      </canvas>
-      <canvas name="iconRaw" width="29" height="25">
-        <vector name="origin" x="-1" y="29"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240073">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="28">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000249"/>
+            <int name="1" value="5000250"/>
+            <int name="2" value="5000251"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000058"/>
+    <imgdir name="05240074">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="27">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000256"/>
+            <int name="1" value="5000257"/>
+            <int name="2" value="5000258"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240024">
-    <imgdir name="info">
-      <canvas name="icon" width="30" height="31">
-        <vector name="origin" x="-2" y="30"/>
-      </canvas>
-      <canvas name="iconRaw" width="30" height="28">
-        <vector name="origin" x="-2" y="30"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240077">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="32">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000271"/>
+            <int name="1" value="5000272"/>
+            <int name="2" value="5000273"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000060"/>
+    <imgdir name="05240078">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="22">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000275"/>
+            <int name="1" value="5000276"/>
+            <int name="2" value="5000277"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="7" value="5000162"/>
+            <int name="6" value="5000161"/>
+            <int name="8" value="5000163"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
-  <imgdir name="05240027">
-    <imgdir name="info">
-      <canvas name="icon" width="33" height="32">
-        <vector name="origin" x="1" y="32"/>
-      </canvas>
-      <canvas name="iconRaw" width="32" height="32">
-        <vector name="origin" x="0" y="32"/>
-      </canvas>
-      <int name="slotMax" value="200"/>
-      <int name="cash" value="1"/>
+    <imgdir name="05240081">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="30">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000290"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="4" value="5000775"/>
+        </imgdir>
     </imgdir>
-    <imgdir name="spec">
-      <int name="inc" value="100"/>
-      <int name="0" value="5000066"/>
+    <imgdir name="05240082">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="34">
+                <vector name="origin" x="1" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="31">
+                <vector name="origin" x="1" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000291"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="4" value="5000776"/>
+        </imgdir>
     </imgdir>
-  </imgdir>
+    <imgdir name="05240083">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="30">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000292"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="4" value="5000777"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240084">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="29">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="26">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000293"/>
+            <int name="1" value="5000294"/>
+            <int name="2" value="5000295"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240085">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="30">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000296"/>
+            <int name="1" value="5000297"/>
+            <int name="2" value="5000298"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240086">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="37">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="37">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000299"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="1" value="5000171"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="4" value="5000449"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240087">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000309"/>
+            <int name="1" value="5000310"/>
+            <int name="2" value="5000311"/>
+            <int name="3" value="5000328"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="4" value="5000362"/>
+            <int name="5" value="5000363"/>
+            <int name="6" value="5000364"/>
+            <int name="7" value="5000193"/>
+            <int name="8" value="5000857"/>
+            <int name="9" value="5000858"/>
+            <int name="10" value="5000859"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240088">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="24">
+                <vector name="origin" x="0" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="23">
+                <vector name="origin" x="0" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000316"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="4" value="5000197"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240089">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="35">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="35">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000317"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240091">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000320"/>
+            <int name="1" value="5000321"/>
+            <int name="2" value="5000322"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240092">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000330"/>
+            <int name="1" value="5000331"/>
+            <int name="2" value="5000332"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="6" value="5000613"/>
+            <int name="7" value="5000614"/>
+            <int name="8" value="5000615"/>
+            <int name="9" value="5000855"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240094">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="32">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="26">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000341"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240095">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="26">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000342"/>
+            <int name="1" value="5000343"/>
+            <int name="2" value="5000344"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240100">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000352"/>
+            <int name="1" value="5000353"/>
+            <int name="2" value="5000354"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240101">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="23">
+                <vector name="origin" x="-1" y="23"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="20">
+                <vector name="origin" x="-1" y="23"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000365"/>
+            <int name="1" value="5000366"/>
+            <int name="2" value="5000367"/>
+            <int name="3" value="5000554"/>
+            <int name="4" value="5000555"/>
+            <int name="5" value="5000556"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240102">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="26">
+                <vector name="origin" x="-4" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="23" height="23">
+                <vector name="origin" x="-5" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000368"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240103">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="25">
+                <vector name="origin" x="-2" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="23">
+                <vector name="origin" x="-2" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000375"/>
+            <int name="1" value="5000376"/>
+            <int name="2" value="5000377"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240110">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="26">
+                <vector name="origin" x="2" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="25">
+                <vector name="origin" x="2" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5001000"/>
+            <int name="1" value="5001001"/>
+            <int name="2" value="5001002"/>
+            <int name="3" value="5001003"/>
+            <int name="4" value="5001004"/>
+            <int name="5" value="5001005"/>
+            <int name="6" value="5001006"/>
+            <int name="7" value="5001007"/>
+            <int name="8" value="5001008"/>
+            <int name="9" value="5001009"/>
+            <int name="10" value="5001010"/>
+            <int name="11" value="5001011"/>
+            <int name="12" value="5001018"/>
+            <int name="13" value="5001019"/>
+            <int name="14" value="5001020"/>
+            <int name="15" value="5001021"/>
+            <int name="16" value="5001022"/>
+            <int name="17" value="5001023"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="125"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240111">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="28">
+                <vector name="origin" x="0" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="26">
+                <vector name="origin" x="0" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000383"/>
+            <int name="1" value="5000198"/>
+            <int name="2" value="5000612"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240112">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="32">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="32">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000385"/>
+            <int name="1" value="5000386"/>
+            <int name="2" value="5000387"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240117">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="16">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000402"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240118">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="16">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000403"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240119">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="16">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000404"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240120">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="25">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000405"/>
+            <int name="1" value="5000406"/>
+            <int name="2" value="5000407"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240122">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="32">
+                <vector name="origin" x="0" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="30">
+                <vector name="origin" x="0" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000414"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240123">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="29">
+                <vector name="origin" x="-4" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="27">
+                <vector name="origin" x="-4" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000415"/>
+            <int name="1" value="5000416"/>
+            <int name="2" value="5000417"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240128">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="31">
+                <vector name="origin" x="-5" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="19" height="31">
+                <vector name="origin" x="-7" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000429"/>
+            <int name="1" value="5000432"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240130">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="27">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000433"/>
+            <int name="1" value="5000434"/>
+            <int name="2" value="5000435"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000530"/>
+            <int name="4" value="5000531"/>
+            <int name="5" value="5000532"/>
+            <int name="6" value="5000647"/>
+            <int name="7" value="5000648"/>
+            <int name="8" value="5000649"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240131">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="26">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000437"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240132">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000443"/>
+            <int name="1" value="5000444"/>
+            <int name="2" value="5000445"/>
+            <int name="3" value="5000469"/>
+            <int name="4" value="5000470"/>
+            <int name="5" value="5000471"/>
+            <int name="6" value="5000557"/>
+            <int name="7" value="5000558"/>
+            <int name="8" value="5000559"/>
+            <int name="9" value="5000533"/>
+            <int name="10" value="5000534"/>
+            <int name="11" value="5000535"/>
+            <int name="12" value="5000650"/>
+            <int name="13" value="5000651"/>
+            <int name="14" value="5000652"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240133">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="29">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="27">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000446"/>
+            <int name="1" value="5000447"/>
+            <int name="2" value="5000448"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240134">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="27">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000460"/>
+            <int name="1" value="5000461"/>
+            <int name="2" value="5000462"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240135">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="31">
+                <vector name="origin" x="-4" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="30">
+                <vector name="origin" x="-4" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000466"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240137">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="29">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="28">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000474"/>
+            <int name="1" value="5000475"/>
+            <int name="2" value="5000476"/>
+            <int name="3" value="5000610"/>
+            <int name="4" value="5000568"/>
+            <int name="5" value="5000611"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240138">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="31">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="28">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000479"/>
+            <int name="1" value="5000605"/>
+            <int name="2" value="5000675"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240140">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="29">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="28">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000484"/>
+            <int name="1" value="5000485"/>
+            <int name="2" value="5000486"/>
+            <int name="3" value="5000490"/>
+            <int name="4" value="5000491"/>
+            <int name="5" value="5000492"/>
+            <int name="6" value="5000727"/>
+            <int name="7" value="5000754"/>
+            <int name="8" value="5000952"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240141">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="29">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="28">
+                <vector name="origin" x="0" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000494"/>
+            <int name="1" value="5000495"/>
+            <int name="2" value="5000496"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240142">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000565"/>
+            <int name="1" value="5000566"/>
+            <int name="2" value="5000567"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240147">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="30">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="30">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000620"/>
+            <int name="1" value="5000621"/>
+            <int name="2" value="5000622"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240150">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="35">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="35">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000633"/>
+            <int name="1" value="5000634"/>
+            <int name="2" value="5000635"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240153">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="32">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="32">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000641"/>
+            <int name="1" value="5000642"/>
+            <int name="2" value="5000643"/>
+            <int name="3" value="5000806"/>
+            <int name="4" value="5000807"/>
+            <int name="5" value="5000808"/>
+            <int name="6" value="5000867"/>
+            <int name="7" value="5000868"/>
+            <int name="8" value="5000869"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240155">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="27">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="25">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000672"/>
+            <int name="1" value="5000673"/>
+            <int name="2" value="5000674"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240157">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="27">
+                <vector name="origin" x="0" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="27">
+                <vector name="origin" x="0" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000595"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240158">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="29">
+                <vector name="origin" x="-3" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="28">
+                <vector name="origin" x="-3" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000696"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240160">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="36">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="36">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000707"/>
+            <int name="1" value="5000708"/>
+            <int name="2" value="5000709"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000781"/>
+            <int name="4" value="5000782"/>
+            <int name="5" value="5000783"/>
+            <int name="6" value="5002066"/>
+            <int name="7" value="5002067"/>
+            <int name="8" value="5002068"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240162">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="34">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="34">
+                <vector name="origin" x="1" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000721"/>
+            <int name="1" value="5000722"/>
+            <int name="2" value="5000723"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000912"/>
+            <int name="4" value="5000913"/>
+            <int name="5" value="5000914"/>
+            <int name="6" value="5000838"/>
+            <int name="7" value="5000839"/>
+            <int name="8" value="5000840"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240163">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="28">
+                <vector name="origin" x="2" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="27">
+                <vector name="origin" x="2" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000736"/>
+            <int name="1" value="5000737"/>
+            <int name="2" value="5000738"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240167">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000751"/>
+            <int name="1" value="5000752"/>
+            <int name="2" value="5000753"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000778"/>
+            <int name="4" value="5000779"/>
+            <int name="5" value="5000780"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240169">
+        <imgdir name="info">
+            <canvas name="icon" width="35" height="33">
+                <vector name="origin" x="3" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="33">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+            <int name="onlyWonder" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000751"/>
+            <int name="1" value="5000752"/>
+            <int name="2" value="5000753"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240172">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="34">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="34">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000772"/>
+            <int name="1" value="5000773"/>
+            <int name="2" value="5000774"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5000915"/>
+            <int name="4" value="5000916"/>
+            <int name="5" value="5000917"/>
+            <int name="6" value="5002117"/>
+            <int name="7" value="5002118"/>
+            <int name="8" value="5002119"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240176">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000906"/>
+            <int name="1" value="5000907"/>
+            <int name="2" value="5000908"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240184">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="26">
+                <vector name="origin" x="-2" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="24">
+                <vector name="origin" x="-5" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000979"/>
+            <int name="1" value="5000980"/>
+            <int name="2" value="5000981"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240188">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="27">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="21" height="25">
+                <vector name="origin" x="-6" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000960"/>
+            <int name="1" value="5000961"/>
+            <int name="2" value="5000962"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5002069"/>
+            <int name="4" value="5002070"/>
+            <int name="5" value="5002071"/>
+            <int name="6" value="5002130"/>
+            <int name="7" value="5002131"/>
+            <int name="8" value="5002132"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240012">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="28">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000029"/>
+            <int name="1" value="5000030"/>
+            <int name="2" value="5000031"/>
+            <int name="3" value="5000032"/>
+            <int name="4" value="5000033"/>
+            <int name="5" value="5000312"/>
+            <int name="6" value="5000329"/>
+            <int name="7" value="5000362"/>
+            <int name="8" value="5000363"/>
+            <int name="9" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240013">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="30">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000036"/>
+            <int name="1" value="5000116"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240014">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="28">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="26">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000038"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240015">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000039"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240020">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="28">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="27">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000045"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240021">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="27">
+                <vector name="origin" x="1" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="27">
+                <vector name="origin" x="1" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000048"/>
+            <int name="1" value="5000049"/>
+            <int name="2" value="5000050"/>
+            <int name="3" value="5000051"/>
+            <int name="4" value="5000052"/>
+            <int name="5" value="5000053"/>
+            <int name="6" value="5000362"/>
+            <int name="7" value="5000363"/>
+            <int name="8" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240023">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="26">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="25">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000058"/>
+            <int name="1" value="5000148"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240024">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="28">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000060"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240028">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="31">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="21" height="30">
+                <vector name="origin" x="-6" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000067"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240031">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="30">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="30">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000070"/>
+            <int name="1" value="5000071"/>
+            <int name="2" value="5000106"/>
+            <int name="3" value="5000118"/>
+            <int name="4" value="5000362"/>
+            <int name="5" value="5000363"/>
+            <int name="6" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240022">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="29">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000056"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240041">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="33">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000141"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240033">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="29">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="21" height="27">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000074"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240034">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="28">
+                <vector name="origin" x="-3" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="24" height="27">
+                <vector name="origin" x="-5" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000076"/>
+            <int name="1" value="5000110"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240040">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="30">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="28">
+                <vector name="origin" x="-3" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000085"/>
+            <int name="1" value="5000086"/>
+            <int name="2" value="5000108"/>
+            <int name="3" value="5000109"/>
+            <int name="4" value="5000362"/>
+            <int name="5" value="5000363"/>
+            <int name="6" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240044">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="30">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="28">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000203"/>
+            <int name="1" value="5000143"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="5" value="5000644"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240048">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="20">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000209"/>
+            <int name="1" value="5000133"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240050">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="36">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="36">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000212"/>
+            <int name="1" value="5000130"/>
+            <int name="2" value="5000234"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240051">
+        <imgdir name="info">
+            <canvas name="icon" width="35" height="36">
+                <vector name="origin" x="1" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="35" height="36">
+                <vector name="origin" x="1" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000213"/>
+            <int name="1" value="5000131"/>
+            <int name="2" value="5000235"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240052">
+        <imgdir name="info">
+            <canvas name="icon" width="35" height="35">
+                <vector name="origin" x="1" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="35" height="35">
+                <vector name="origin" x="1" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000214"/>
+            <int name="1" value="5000132"/>
+            <int name="2" value="5000236"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240046">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000205"/>
+            <int name="1" value="5000145"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="5" value="5000646"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240075">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="32">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="26">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000264"/>
+            <int name="1" value="5000176"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240045">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="31">
+                <vector name="origin" x="-5" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="19" height="31">
+                <vector name="origin" x="-7" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000221"/>
+            <int name="1" value="5000146"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240066">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="31">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="29">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000142"/>
+            <int name="1" value="5000225"/>
+            <int name="2" value="5000241"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240062">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-4" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="29">
+                <vector name="origin" x="-4" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000138"/>
+            <int name="1" value="5000262"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240063">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="26">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="26">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000139"/>
+            <int name="1" value="5000263"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240027">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000066"/>
+            <int name="1" value="5000105"/>
+            <int name="2" value="5000082"/>
+            <int name="3" value="5000238"/>
+            <int name="4" value="5000362"/>
+            <int name="5" value="5000363"/>
+            <int name="6" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240079">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="31">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="29">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <int name="slotMax" value="1"/>
+            <int name="cash" value="1"/>
+            <int name="noMoveToLocker" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000142"/>
+            <int name="1" value="5000225"/>
+            <int name="2" value="5000241"/>
+            <int name="3" value="5000362"/>
+            <int name="4" value="5000363"/>
+            <int name="5" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240090">
+        <imgdir name="info">
+            <canvas name="icon" width="22" height="32">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="22" height="32">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000318"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240096">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="27">
+                <vector name="origin" x="-3" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="24" height="24">
+                <vector name="origin" x="-4" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000345"/>
+            <int name="1" value="5000362"/>
+            <int name="2" value="5000363"/>
+            <int name="3" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240057">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="34">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="34">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000135"/>
+            <int name="1" value="5000259"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240058">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="35">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="35">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000136"/>
+            <int name="1" value="5000260"/>
+            <int name="2" value="5000362"/>
+            <int name="3" value="5000363"/>
+            <int name="4" value="5000364"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240104">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="31">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000369"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5002063"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240105">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="30">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="28">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000370"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5002064"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240106">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="25">
+                <vector name="origin" x="-1" y="24"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="21">
+                <vector name="origin" x="-1" y="24"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000371"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5002065"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05249000">
+        <imgdir name="info">
+            <canvas name="icon" width="23" height="31">
+                <vector name="origin" x="-5" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="23" height="31">
+                <vector name="origin" x="-5" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240144">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="31">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="31">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000609"/>
+            <int name="1" value="5000572"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240145">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="28">
+                <vector name="origin" x="-4" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="24">
+                <vector name="origin" x="-4" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000608"/>
+            <int name="1" value="5000571"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240146">
+        <imgdir name="info">
+            <canvas name="icon" width="28" height="26">
+                <vector name="origin" x="-4" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="26">
+                <vector name="origin" x="-4" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000607"/>
+            <int name="1" value="5000570"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240143">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="23" height="28">
+                <vector name="origin" x="-4" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000606"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="1" value="5000616"/>
+            <int name="2" value="5000617"/>
+            <int name="3" value="5000618"/>
+            <int name="4" value="5000619"/>
+            <int name="5" value="5000569"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240113">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="26">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="21">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000384"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240038">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="33">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="33">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000096"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240126">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="33">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000424"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240093">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000170"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240148">
+        <imgdir name="info">
+            <canvas name="icon" width="27" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000631"/>
+            <int name="1" value="5000585"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240149">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="25">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="25">
+                <vector name="origin" x="-2" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000632"/>
+            <int name="1" value="5000586"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240151">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="27">
+                <vector name="origin" x="-1" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="23">
+                <vector name="origin" x="-1" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000639"/>
+            <int name="1" value="5000590"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240152">
+        <imgdir name="info">
+            <canvas name="icon" width="29" height="25">
+                <vector name="origin" x="-3" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="25">
+                <vector name="origin" x="-3" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000636"/>
+            <int name="1" value="5000637"/>
+            <int name="2" value="5000638"/>
+            <int name="3" value="5000587"/>
+            <int name="4" value="5000588"/>
+            <int name="5" value="5000589"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240156">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="31">
+                <vector name="origin" x="-2" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000686"/>
+            <int name="1" value="5000592"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240159">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="27">
+                <vector name="origin" x="1" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="24">
+                <vector name="origin" x="1" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000697"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240161">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000718"/>
+            <int name="1" value="5000719"/>
+            <int name="2" value="5000720"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240164">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="32">
+                <vector name="origin" x="1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="31">
+                <vector name="origin" x="1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000741"/>
+            <int name="1" value="5000742"/>
+            <int name="2" value="5000743"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240165">
+        <imgdir name="info">
+            <canvas name="icon" width="25" height="30">
+                <vector name="origin" x="-5" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="30">
+                <vector name="origin" x="-5" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000746"/>
+            <int name="1" value="5000747"/>
+            <int name="2" value="5000748"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240166">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="28">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="26">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000750"/>
+            <int name="1" value="5000828"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240168">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="27">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="25">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000759"/>
+            <int name="1" value="5000829"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240170">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="23">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000760"/>
+            <int name="1" value="5000830"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240171">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="20">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000761"/>
+            <int name="1" value="5000831"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240173">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="29">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000785"/>
+            <int name="1" value="5000835"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240174">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="33">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="33">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000789"/>
+            <int name="1" value="5000836"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240175">
+        <imgdir name="info">
+            <canvas name="icon" width="38" height="37">
+                <vector name="origin" x="3" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="38" height="37">
+                <vector name="origin" x="3" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000903"/>
+            <int name="1" value="5000904"/>
+            <int name="2" value="5000905"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240177">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="31">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000909"/>
+            <int name="1" value="5000910"/>
+            <int name="2" value="5000911"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240180">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="34">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000926"/>
+            <int name="1" value="5000927"/>
+            <int name="2" value="5000928"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240183">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="30">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="29">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000954"/>
+            <int name="1" value="5000955"/>
+            <int name="2" value="5000956"/>
+            <int name="3" value="5000957"/>
+            <int name="4" value="5000958"/>
+            <int name="5" value="5000959"/>
+            <int name="6" value="5002090"/>
+            <int name="7" value="5002091"/>
+            <int name="8" value="5002092"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240186">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="35">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="35">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000984"/>
+            <int name="1" value="5000985"/>
+            <int name="2" value="5000986"/>
+            <int name="3" value="5000987"/>
+            <int name="4" value="5000988"/>
+            <int name="5" value="5000989"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240187">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="29">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="26">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000997"/>
+            <int name="1" value="5000998"/>
+            <int name="2" value="5000999"/>
+            <int name="3" value="5002000"/>
+            <int name="4" value="5002001"/>
+            <int name="5" value="5002002"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240189">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="36">
+                <vector name="origin" x="-1" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="36">
+                <vector name="origin" x="-1" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002003"/>
+            <int name="1" value="5002004"/>
+            <int name="2" value="5002005"/>
+            <int name="3" value="5002006"/>
+            <int name="4" value="5002007"/>
+            <int name="5" value="5002008"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240190">
+        <imgdir name="info">
+            <canvas name="icon" width="25" height="27">
+                <vector name="origin" x="-5" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="28">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000852"/>
+            <int name="1" value="5002009"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240191">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="29">
+                <vector name="origin" x="1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="28">
+                <vector name="origin" x="-3" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5000853"/>
+            <int name="1" value="5002010"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240192">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="28">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002011"/>
+            <int name="1" value="5002012"/>
+            <int name="2" value="5002013"/>
+            <int name="3" value="5002014"/>
+            <int name="4" value="5002015"/>
+            <int name="5" value="5002016"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240193">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="33">
+                <vector name="origin" x="-2" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="33">
+                <vector name="origin" x="-2" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002021"/>
+            <int name="1" value="5002022"/>
+            <int name="2" value="5002023"/>
+            <int name="3" value="5002024"/>
+            <int name="4" value="5002025"/>
+            <int name="5" value="5002026"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240194">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="27">
+                <vector name="origin" x="-4" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002030"/>
+            <int name="1" value="5002031"/>
+            <int name="2" value="5002032"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5002042"/>
+            <int name="4" value="5002043"/>
+            <int name="5" value="5002044"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240196">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002048"/>
+            <int name="1" value="5002049"/>
+            <int name="2" value="5002050"/>
+            <int name="3" value="5002060"/>
+            <int name="4" value="5002061"/>
+            <int name="5" value="5002062"/>
+            <int name="6" value="5002087"/>
+            <int name="7" value="5002088"/>
+            <int name="8" value="5002089"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240195">
+        <imgdir name="info">
+            <canvas name="icon" width="36" height="36">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <canvas name="iconRaw" width="36" height="36">
+                <vector name="origin" x="2" y="34"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002045"/>
+            <int name="1" value="5002046"/>
+            <int name="2" value="5002047"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240197">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="29">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002057"/>
+            <int name="1" value="5002058"/>
+            <int name="2" value="5002059"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240198">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002076"/>
+            <int name="1" value="5002077"/>
+            <int name="2" value="5002078"/>
+            <int name="3" value="5002100"/>
+            <int name="4" value="5002101"/>
+            <int name="5" value="5002102"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240199">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="32">
+                <vector name="origin" x="-2" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="31">
+                <vector name="origin" x="-3" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002096"/>
+            <int name="1" value="5002097"/>
+            <int name="2" value="5002098"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240200">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="22">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002110"/>
+            <int name="1" value="5002111"/>
+            <int name="2" value="5002112"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5002133"/>
+            <int name="4" value="5002134"/>
+            <int name="5" value="5002135"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240201">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="27">
+                <vector name="origin" x="0" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="27">
+                <vector name="origin" x="0" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002120"/>
+            <int name="1" value="5002125"/>
+            <int name="2" value="5002126"/>
+            <int name="3" value="5002147"/>
+            <int name="4" value="5002148"/>
+            <int name="5" value="5002149"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240202">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="28">
+                <vector name="origin" x="1" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="25">
+                <vector name="origin" x="1" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002127"/>
+            <int name="1" value="5002128"/>
+            <int name="2" value="5002129"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5002158"/>
+            <int name="4" value="5002159"/>
+            <int name="5" value="5002160"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240203">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="29">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="28">
+                <vector name="origin" x="-4" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002145"/>
+            <int name="1" value="5002144"/>
+            <int name="2" value="5002143"/>
+            <int name="3" value="5000877"/>
+            <int name="4" value="5000878"/>
+            <int name="5" value="5000879"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240204">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002150"/>
+            <int name="1" value="5002151"/>
+            <int name="2" value="5002152"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240205">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="31">
+                <vector name="origin" x="-1" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002153"/>
+            <int name="1" value="5002154"/>
+            <int name="2" value="5002155"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240206">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002166"/>
+            <int name="1" value="5002167"/>
+            <int name="2" value="5002168"/>
+            <int name="3" value="5002180"/>
+            <int name="4" value="5002181"/>
+            <int name="5" value="5002182"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240207">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="29">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="29">
+                <vector name="origin" x="-3" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002176"/>
+            <int name="1" value="5002177"/>
+            <int name="2" value="5002178"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+            <int name="3" value="5002194"/>
+            <int name="4" value="5002195"/>
+            <int name="5" value="5002196"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240209">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="25">
+                <vector name="origin" x="0" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="19">
+                <vector name="origin" x="0" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002191"/>
+            <int name="1" value="5002192"/>
+            <int name="2" value="5002193"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240208">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="28">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002183"/>
+            <int name="1" value="5002184"/>
+            <int name="2" value="5002185"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240210">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="26">
+                <vector name="origin" x="-1" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="23">
+                <vector name="origin" x="-2" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002205"/>
+            <int name="1" value="5002206"/>
+            <int name="2" value="5002207"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240211">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="28">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002211"/>
+            <int name="1" value="5002212"/>
+            <int name="2" value="5002213"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240212">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002214"/>
+            <int name="1" value="5002215"/>
+            <int name="2" value="5002216"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240213">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002223"/>
+            <int name="1" value="5002224"/>
+            <int name="2" value="5002225"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240214">
+        <imgdir name="info">
+            <canvas name="icon" width="25" height="27">
+                <vector name="origin" x="-4" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="29">
+                <vector name="origin" x="-1" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002232"/>
+            <int name="1" value="5002233"/>
+            <int name="2" value="5002234"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240216">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002248"/>
+            <int name="1" value="5002249"/>
+            <int name="2" value="5002250"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240217">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002251"/>
+            <int name="1" value="5002252"/>
+            <int name="2" value="5002253"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240218">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="30">
+                <vector name="origin" x="1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="28">
+                <vector name="origin" x="1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002259"/>
+            <int name="1" value="5002260"/>
+            <int name="2" value="5002261"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240219">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="26">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002267"/>
+            <int name="1" value="5002268"/>
+            <int name="2" value="5002269"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240220">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002278"/>
+            <int name="1" value="5002279"/>
+            <int name="2" value="5002280"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240215">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="24">
+                <vector name="origin" x="-1" y="24"/>
+            </canvas>
+            <canvas name="iconRaw" width="23" height="19">
+                <vector name="origin" x="-4" y="24"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002235"/>
+            <int name="1" value="5002236"/>
+            <int name="2" value="5002237"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240221">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="27">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002281"/>
+            <int name="1" value="5002282"/>
+            <int name="2" value="5002283"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240222">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="26">
+                <vector name="origin" x="-2" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="30" height="24">
+                <vector name="origin" x="-2" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002287"/>
+            <int name="1" value="5002288"/>
+            <int name="2" value="5002289"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240223">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="30">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002293"/>
+            <int name="1" value="5002294"/>
+            <int name="2" value="5002295"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240224">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="32">
+                <vector name="origin" x="-1" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002333"/>
+            <int name="1" value="5002334"/>
+            <int name="2" value="5002335"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240225">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="27" height="29">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002359"/>
+            <int name="1" value="5002360"/>
+            <int name="2" value="5002361"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240226">
+        <imgdir name="info">
+            <canvas name="icon" width="26" height="30">
+                <vector name="origin" x="-2" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="19" height="28">
+                <vector name="origin" x="-7" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002369"/>
+            <int name="1" value="5002370"/>
+            <int name="2" value="5002371"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240227">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002372"/>
+            <int name="1" value="5002373"/>
+            <int name="2" value="5002374"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240228">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="33">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="33">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002387"/>
+            <int name="1" value="5002388"/>
+            <int name="2" value="5002389"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240229">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="28">
+                <vector name="origin" x="0" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="26">
+                <vector name="origin" x="0" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002501"/>
+            <int name="1" value="5002502"/>
+            <int name="2" value="5002503"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240230">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="33">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002504"/>
+            <int name="1" value="5002505"/>
+            <int name="2" value="5002506"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240231">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="26">
+                <vector name="origin" x="-2" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="29" height="23">
+                <vector name="origin" x="-2" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002511"/>
+            <int name="1" value="5002512"/>
+            <int name="2" value="5002513"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240232">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="34">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="34">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002519"/>
+            <int name="1" value="5002520"/>
+            <int name="2" value="5002521"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240233">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="22">
+                <vector name="origin" x="-4" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002525"/>
+            <int name="1" value="5002526"/>
+            <int name="2" value="5002527"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240234">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="34">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="34">
+                <vector name="origin" x="2" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002534"/>
+            <int name="1" value="5002535"/>
+            <int name="2" value="5002536"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240235">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="30">
+                <vector name="origin" x="-1" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="23" height="28">
+                <vector name="origin" x="-5" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002537"/>
+            <int name="1" value="5002538"/>
+            <int name="2" value="5002539"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240236">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="30">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <canvas name="iconRaw" width="33" height="29">
+                <vector name="origin" x="0" y="30"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002543"/>
+            <int name="1" value="5002544"/>
+            <int name="2" value="5002545"/>
+            <int name="3" value="5002553"/>
+            <int name="4" value="5002554"/>
+            <int name="5" value="5002555"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240237">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="24">
+                <vector name="origin" x="-1" y="24"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="21">
+                <vector name="origin" x="-4" y="24"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002547"/>
+            <int name="1" value="5002548"/>
+            <int name="2" value="5002549"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240238">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="1" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002550"/>
+            <int name="1" value="5002551"/>
+            <int name="2" value="5002552"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240239">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="28">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="26">
+                <vector name="origin" x="-1" y="28"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002567"/>
+            <int name="1" value="5002568"/>
+            <int name="2" value="5002569"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240240">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-2" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="23">
+                <vector name="origin" x="-2" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002570"/>
+            <int name="1" value="5002571"/>
+            <int name="2" value="5002572"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240241">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="30">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002581"/>
+            <int name="1" value="5002582"/>
+            <int name="2" value="5002583"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240242">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="26">
+                <vector name="origin" x="-2" y="26"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="24">
+                <vector name="origin" x="-3" y="26"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002588"/>
+            <int name="1" value="5002589"/>
+            <int name="2" value="5002590"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240243">
+        <imgdir name="info">
+            <canvas name="icon" width="34" height="34">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <canvas name="iconRaw" width="34" height="34">
+                <vector name="origin" x="0" y="33"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002592"/>
+            <int name="1" value="5002593"/>
+            <int name="2" value="5002594"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240244">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="29">
+                <vector name="origin" x="-2" y="29"/>
+            </canvas>
+            <canvas name="iconRaw" width="26" height="27">
+                <vector name="origin" x="-4" y="29"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002595"/>
+            <int name="1" value="5002596"/>
+            <int name="2" value="5002597"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240246">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="25">
+                <vector name="origin" x="-1" y="25"/>
+            </canvas>
+            <canvas name="iconRaw" width="25" height="21">
+                <vector name="origin" x="-4" y="25"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002626"/>
+            <int name="1" value="5002627"/>
+            <int name="2" value="5002628"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240247">
+        <imgdir name="info">
+            <canvas name="icon" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="0" y="31"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002629"/>
+            <int name="1" value="5002630"/>
+            <int name="2" value="5002631"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240248">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="24">
+                <vector name="origin" x="-1" y="24"/>
+            </canvas>
+            <canvas name="iconRaw" width="28" height="22">
+                <vector name="origin" x="-3" y="24"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002634"/>
+            <int name="1" value="5002635"/>
+            <int name="2" value="5002636"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240249">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <canvas name="iconRaw" width="31" height="31">
+                <vector name="origin" x="0" y="32"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002643"/>
+            <int name="1" value="5002644"/>
+            <int name="2" value="5002645"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05240250">
+        <imgdir name="info">
+            <canvas name="icon" width="30" height="27">
+                <vector name="origin" x="-1" y="27"/>
+            </canvas>
+            <canvas name="iconRaw" width="23" height="24">
+                <vector name="origin" x="-5" y="27"/>
+            </canvas>
+            <int name="slotMax" value="200"/>
+            <int name="cash" value="1"/>
+        </imgdir>
+        <imgdir name="spec">
+            <int name="0" value="5002656"/>
+            <int name="1" value="5002657"/>
+            <int name="2" value="5002658"/>
+            <int name="incTameness" value="100"/>
+            <int name="incRepleteness" value="100"/>
+        </imgdir>
+    </imgdir>
 </imgdir>

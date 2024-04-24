@@ -186,7 +186,6 @@ function action(mode, type, selection) {
         cm.sendYesNo(prompt);
     } else if (status == 3 && mode == 1) {
         var complete = true;
-
         if (!cm.canHold(item, 1)) {
             cm.sendOk("Verify for a slot in your inventory first.");
             cm.dispose();
@@ -198,20 +197,12 @@ function action(mode, type, selection) {
         } else {
             if (mats instanceof Array) {
                 for (var i = 0; complete && i < mats.length; i++) {
-                    if (matQty[i] * selection == 1) {
-                        if (!cm.haveItem(mats[i])) {
+                    if (!cm.haveItem(mats[i], matQty[i])) {
                             complete = false;
-                        }
-                    } else {
-                        if (!cm.haveItem(mats[i], matQty[i] * selection)) {
-                            complete = false;
-                        }
                     }
                 }
             } else {
-                if (!cm.haveItem(mats, matQty * selection)) {
-                    complete = false;
-                }
+                complete = false;
             }
         }
 

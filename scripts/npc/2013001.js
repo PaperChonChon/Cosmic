@@ -243,7 +243,6 @@ function action(mode, type, selection) {
                             react += "0";
                         }
                     }
-
                     if (total != 2) {
                         cm.sendOk("There needs to be exactly 2 levers at the top of the map pushed on.");
                     } else {

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="HoBbangKing.img">
+    <imgdir name="Object">
+        <imgdir name="shop1">
+            <imgdir name="0">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiYgAAAAD//w==">
+                    <vector name="origin" x="106" y="91"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/0/0"/>
+                </canvas>
+            </imgdir>
+            <imgdir name="1">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="106" y="103"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/1/0"/>
+                </canvas>
+            </imgdir>
+            <imgdir name="2">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="11" y="18"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="180"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/2/0"/>
+                </canvas>
+                <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="18" y="17"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="180"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/2/1"/>
+                </canvas>
+                <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="10"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="180"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/2/2"/>
+                </canvas>
+                <uol name="3" value="1"/>
+                <uol name="4" value="0"/>
+                <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="8" y="17"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="180"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/2/5"/>
+                </canvas>
+                <canvas name="6" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="7" y="0"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="180"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/2/6"/>
+                </canvas>
+                <canvas name="7" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="6" y="-2"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="180"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/2/7"/>
+                </canvas>
+                <uol name="8" value="6"/>
+                <uol name="9" value="5"/>
+            </imgdir>
+            <imgdir name="3">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="24" y="33"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/shop1/3/0"/>
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="hobbang">
+            <imgdir name="0">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="19"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="500"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/0"/>
+                </canvas>
+                <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="17"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/1"/>
+                </canvas>
+                <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="9"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/2"/>
+                </canvas>
+                <canvas name="3" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="43"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/3"/>
+                </canvas>
+                <canvas name="4" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="23" y="44"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/4"/>
+                </canvas>
+                <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="44"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/5"/>
+                </canvas>
+            </imgdir>
+            <imgdir name="1">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="19"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="700"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/0"/>
+                </canvas>
+                <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="17"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/1"/>
+                </canvas>
+                <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="9"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/2"/>
+                </canvas>
+                <canvas name="3" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="43"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/3"/>
+                </canvas>
+                <canvas name="4" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="23" y="44"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/4"/>
+                </canvas>
+                <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="44"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/5"/>
+                </canvas>
+            </imgdir>
+            <imgdir name="2">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="19"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="900"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/0"/>
+                </canvas>
+                <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="17"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/1"/>
+                </canvas>
+                <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="20" y="9"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/2"/>
+                </canvas>
+                <canvas name="3" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="43"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/3"/>
+                </canvas>
+                <canvas name="4" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="23" y="44"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/4"/>
+                </canvas>
+                <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="21" y="44"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/0/5"/>
+                </canvas>
+            </imgdir>
+            <imgdir name="3">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="35"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="700"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/0"/>
+                </canvas>
+                <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="34"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/1"/>
+                </canvas>
+                <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="30"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/2"/>
+                </canvas>
+                <canvas name="3" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="63"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/3"/>
+                </canvas>
+                <canvas name="4" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="34" y="81"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/4"/>
+                </canvas>
+                <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="33" y="83"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/5"/>
+                </canvas>
+            </imgdir>
+            <imgdir name="4">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="35"/>
+                    <int name="z" value="0"/>
+                    <int name="delay" value="1000"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/0"/>
+                </canvas>
+                <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="34"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/1"/>
+                </canvas>
+                <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="30"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/2"/>
+                </canvas>
+                <canvas name="3" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="29" y="63"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/3"/>
+                </canvas>
+                <canvas name="4" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="34" y="81"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/4"/>
+                </canvas>
+                <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="33" y="83"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/hobbang/3/5"/>
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="number">
+            <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="6" y="20"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/0"/>
+            </canvas>
+            <canvas name="1" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="3" y="21"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/1"/>
+            </canvas>
+            <canvas name="2" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="7" y="20"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/2"/>
+            </canvas>
+            <canvas name="3" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="7" y="21"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/3"/>
+            </canvas>
+            <canvas name="4" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="8" y="22"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/4"/>
+            </canvas>
+            <canvas name="5" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="7" y="20"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/5"/>
+            </canvas>
+            <canvas name="6" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="8" y="21"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/6"/>
+            </canvas>
+            <canvas name="7" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="7" y="21"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/7"/>
+            </canvas>
+            <canvas name="8" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiYAAAAAD//w==">
+                <vector name="origin" x="7" y="21"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/8"/>
+            </canvas>
+            <canvas name="9" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                <vector name="origin" x="7" y="22"/>
+                <int name="z" value="0"/>
+                <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/number/9"/>
+            </canvas>
+            <canvas name="comma" width="5" height="5" pixFormat="1" magLevel="0" bytedata="eJxiYPgf/7+fAQj+y/+f///8/3ggi/9////7//czgMH/fCDbH8zSB6qwBwAAAP//">
+                <vector name="origin" x="-6" y="4"/>
+                <int name="z" value="0"/>
+            </canvas>
+            <int name="numberWidth" value="20"/>
+        </imgdir>
+        <imgdir name="sample">
+            <imgdir name="0">
+                <canvas name="0" width="1" height="1" pixFormat="1" magLevel="0" bytedata="eJxiZAAAAAD//w==">
+                    <vector name="origin" x="79" y="112"/>
+                    <int name="z" value="0"/>
+                    <string name="_outlink" value="Map/Obj/_Canvas/HoBbangKing.img/Object/sample/0/0"/>
+                </canvas>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,6 +1,6 @@
-#THIS SQL MUST BE USED AFTER 'db_database.sql'
-#NEXT SQL 'db_shopupdate.sql' IS OPTIONAL
-
+-- #THIS SQL MUST BE USED AFTER 'db_database.sql'
+-- #NEXT SQL 'db_shopupdate.sql' IS OPTIONAL
+SET SQL_SAFE_UPDATES = 0;
 USE `cosmic`;
 
   INSERT IGNORE INTO temp_data (`dropperid`, `itemid`, `minimum_quantity`, `maximum_quantity`, `questid`, `chance`) VALUES

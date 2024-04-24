@@ -38,19 +38,19 @@ import java.util.Map.Entry;
 
 public class GotoCommand extends Command {
 
+    public static String GOTO_TOWNS_INFO = "";
+    public static String GOTO_AREAS_INFO = "";
     {
         setDescription("Warp to a predefined map.");
 
-        List<Entry<String, Integer>> towns = new ArrayList<>(GameConstants.GOTO_TOWNS.entrySet());
-        sortGotoEntries(towns);
-
         try {
+            GOTO_TOWNS_INFO = "";
+            GOTO_AREAS_INFO = "";
             // thanks shavit for noticing goto areas getting loaded from wz needlessly only for the name retrieval
-
+            List<Entry<String, Integer>> towns = new ArrayList<>(GameConstants.GOTO_TOWNS.entrySet());
             for (Map.Entry<String, Integer> e : towns) {
                 GOTO_TOWNS_INFO += ("'" + e.getKey() + "' - #b" + (MapFactory.loadPlaceName(e.getValue())) + "#k\r\n");
             }
-
             List<Entry<String, Integer>> areas = new ArrayList<>(GameConstants.GOTO_AREAS.entrySet());
             sortGotoEntries(areas);
             for (Map.Entry<String, Integer> e : areas) {
@@ -65,8 +65,7 @@ public class GotoCommand extends Command {
 
     }
 
-    public static String GOTO_TOWNS_INFO = "";
-    public static String GOTO_AREAS_INFO = "";
+
 
     private static void sortGotoEntries(List<Entry<String, Integer>> listEntries) {
         listEntries.sort((e1, e2) -> e1.getValue().compareTo(e2.getValue()));
@@ -114,7 +113,7 @@ public class GotoCommand extends Command {
             player.changeMap(target, targetPortal);
         } else {
             // detailed info on goto available areas suggested thanks to Vcoc
-            String sendStr = "Area '#r" + params[0] + "#k' is not available. Available areas:\r\n\r\n#rTowns:#k" + GOTO_TOWNS_INFO;
+            String sendStr = "Area '#r" + params[0] + "#k' is not available. Available areas:\r\n\r\n#rTowns:#k\r\n" + GOTO_TOWNS_INFO;
             if (player.isGM()) {
                 sendStr += ("\r\n#rAreas:#k\r\n" + GOTO_AREAS_INFO);
             }

@@ -237,6 +237,9 @@ public class ItemInformationProvider {
         } else if (ItemConstants.isHair(itemId)) {
             theData = eqpStringData;
             cat = "Eqp/Hair";
+        } else if (ItemId.isChair(itemId)) {
+            theData = insStringData;
+            //cat = "Ins";
         } else if (itemId >= 1050000 && itemId < 1060000) {
             theData = eqpStringData;
             cat = "Eqp/Longcoat";
@@ -264,9 +267,10 @@ public class ItemInformationProvider {
         } else if (itemId >= 4000000 && itemId < 5000000) {
             theData = etcStringData;
             cat = "Etc";
-        } else if (itemId >= 3000000 && itemId < 4000000) {
-            theData = insStringData;
-        } else if (ItemConstants.isPet(itemId)) {
+        } //else if (itemId >= 3000000 && itemId < 4000000) {
+          //  theData = insStringData;
+        //}
+        else if (ItemConstants.isPet(itemId)) {
             theData = petStringData;
         } else {
             return null;
@@ -1333,10 +1337,12 @@ public class ItemInformationProvider {
 
     public String getName(int itemId) {
         if (nameCache.containsKey(itemId)) {
+            //System.out.println("nameCache.get(itemId): "+nameCache.get(itemId));
             return nameCache.get(itemId);
         }
         Data strings = getStringData(itemId);
         if (strings == null) {
+            System.out.println("item strings is null. itemId: "+itemId);
             return null;
         }
         String ret = DataTool.getString("name", strings, null);
@@ -1715,12 +1721,13 @@ public class ItemInformationProvider {
     public boolean isCash(int itemId) {
         int itemType = itemId / 1000000;
         if (itemType == 5) {
+            //System.out.println("itemId5: "+itemId);
             return true;
         }
         if (itemType != 1) {
             return false;
         }
-
+        //System.out.println("itemId: "+itemId);
         Map<String, Integer> eqpStats = getEquipStats(itemId);
         return eqpStats != null && eqpStats.get("cash") == 1;
     }

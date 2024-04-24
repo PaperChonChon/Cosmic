@@ -90,6 +90,7 @@ public class GameConstants {
         put("square", MapId.KERNING_SQUARE);
         put("neo", MapId.NEO_CITY);
         put("mushking", MapId.MUSHROOM_KINGDOM);
+        put("zipangu", MapId.ZIPANGU);
     }};
 
     // "goto" command for only-GMs

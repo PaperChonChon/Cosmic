@@ -26,30 +26,21 @@ package client.command.commands.gm2;
 import client.Character;
 import client.Client;
 import client.command.Command;
-import config.YamlConfig;
 
 public class LevelCommand extends Command {
     {
-        setDescription("Set your level.");
+        setDescription("Always use this to level up. Using @levelpro 10 when you are level 5 will give you 5 levels worth of stats (25 AP)");
     }
 
     @Override
     public void execute(Client c, String[] params) {
         Character player = c.getPlayer();
         if (params.length < 1) {
-            player.yellowMessage("Syntax: !level <newlevel>");
+            player.yellowMessage("Syntax: @level <newlevel>");
             return;
         }
-
-        player.loseExp(player.getExp(), false, false);
-        player.setLevel(Math.min(Integer.parseInt(params[0]), player.getMaxClassLevel()) - 1);
-
-        player.resetPlayerRates();
-        if (YamlConfig.config.server.USE_ADD_RATES_BY_LEVEL) {
-            player.setPlayerRates();
+        while (player.getLevel() < Math.min(player.getMaxClassLevel(), Integer.parseInt(params[0]))) {
+            player.levelUp(false);
         }
-        player.setWorldRates();
-
-        player.levelUp(false);
     }
 }

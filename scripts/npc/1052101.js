@@ -57,7 +57,7 @@ function action(mode, type, selection) {
         if (status == 0) {
             cm.sendSimple("I'm Andre, Don's assistant. Everyone calls me Andre, though. If you have a #b#t5150002##k, #b#t5150011##k or a #b#t5151002##k, please let me change your hairdo!\r\n#L0#Haircut: #i5150002##t5150002##l\r\n#L1#Haircut: #i5150011##t5150011##l\r\n#L2#Dye your hair: #i5151002##t5151002##l");
         } else if (status == 1) {
-            if (selection == 0) {
+            if (selection == 0 && status == 1) {
                 beauty = 3;
                 hairnew = Array();
                 if (cm.getPlayer().getGender() == 0) {
@@ -73,7 +73,7 @@ function action(mode, type, selection) {
                     }
                 }
                 cm.sendYesNo("If you use the REG coupon your hair will change RANDOMLY with a chance to obtain a new experimental style that I came up with. Are you going to use #b#t5150011##k and really change your hairstyle?");
-            } else if (selection == 1) {
+            } else if (selection == 1 && status == 1) {
                 beauty = 1;
                 hairnew = Array();
                 if (cm.getPlayer().getGender() == 0) {
@@ -89,7 +89,7 @@ function action(mode, type, selection) {
                     }
                 }
                 cm.sendYesNo("If you use the EXP coupon your hair will change RANDOMLY with a chance to obtain a new experimental style that I came up with. Are you going to use #b#t5150011##k and really change your hairstyle?");
-            } else if (selection == 2) {
+            } else if (selection == 2 && status == 1) {
                 beauty = 2;
                 haircolor = Array();
                 var current = parseInt(cm.getPlayer().getHair()

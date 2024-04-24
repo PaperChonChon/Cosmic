@@ -101,6 +101,7 @@ public final class UseItemHandler extends AbstractPacketHandler {
             } else {
                 StatEffect mse = ii.getItemEffect(toUse.getItemId());
                 for (Character player : chr.getMap().getCharacters()) {
+                    System.out.println("generic item usage goes in here");
                     mse.applyTo(player);
                 }
             }

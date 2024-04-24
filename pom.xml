@@ -25,6 +25,7 @@
 
         <!-- Dependencies -->
         <slf4j-api.version>1.7.36</slf4j-api.version> <!-- Logging facade -->
+	<slf4j-simple.version>1.7.36</slf4j-simple.version> <!-- Logging facade -->
         <log4j.version>2.20.0</log4j.version> <!-- Slf4j implementation -->
         <graalvm.version>22.3.1</graalvm.version> <!-- ScriptEngine implementation -->
         <netty.version>4.1.89.Final</netty.version> <!-- Networking -->
@@ -36,6 +37,16 @@
         <junit.version>5.9.2</junit.version> <!-- Unit test -->
         <mockito.version>5.1.1</mockito.version> <!-- Unit test -->
     </properties>
+
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -94,6 +105,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j-api.version}</version>
+        </dependency>
+	<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j-simple.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

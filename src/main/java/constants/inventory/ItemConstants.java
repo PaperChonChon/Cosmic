@@ -105,7 +105,7 @@ public final class ItemConstants {
     }
 
     public static boolean isPet(int itemId) {
-        return itemId / 1000 == 5000;
+        return (itemId / 1000 == 5000 || itemId / 1000 == 5001 || itemId / 1000 == 5002);
     }
 
     public static boolean isExpirablePet(int itemId) {
@@ -207,6 +207,7 @@ public final class ItemConstants {
 
     public static boolean isCashStore(int itemId) {
         int itemType = itemId / 10000;
+        //System.out.println("itemIdstore: "+itemId);
         return itemType == 503 || itemType == 514;
     }
 
@@ -224,7 +225,7 @@ public final class ItemConstants {
     }
 
     public static boolean isFishingChair(int itemId) {
-        return itemId == ItemId.FISHING_CHAIR;
+        return (itemId == ItemId.FISHING_CHAIR) || (itemId == ItemId.HATSAR_FISHING_CHAIR) || (itemId == ItemId.DREAMY_FISHING_CHAIR) || (itemId == ItemId.SPIRIT_FISHING_CHAIR) || (itemId == ItemId.DEEP_SEA_FISHING_CHAIR);
     }
 
     public static boolean isMedal(int itemId) {
@@ -232,10 +233,22 @@ public final class ItemConstants {
     }
 
     public static boolean isFace(int itemId) {
-        return itemId >= 20000 && itemId < 22000;
+        //return ((itemId >= 20000 && itemId < 30000) || (itemId >= 50000 && itemId < 60000));
+        return (itemId >= 20000 && itemId < 40000);
     }
 
     public static boolean isHair(int itemId) {
-        return itemId >= 30000 && itemId < 35000;
+        //return ((itemId >= 30000 && itemId < 50000) || (itemId >= 60000 && itemId < 62000));
+        return (itemId >= 40000 && itemId <= 62000);
+    }
+
+    public static boolean isChairCoupon(int itemId) {
+        //return ((itemId >= 30000 && itemId < 50000) || (itemId >= 60000 && itemId < 62000));
+        return (itemId >= 5530000 && itemId < 5530800) || (itemId >= 5680300 && itemId < 5680500) || (itemId >= 5204000 && itemId < 5204100) || (itemId >= 5532000 && itemId < 5533000);
+    }
+
+    public static boolean isCoupon(int itemId) {
+        //return ((itemId >= 30000 && itemId < 50000) || (itemId >= 60000 && itemId < 62000));
+        return (itemId >= 5530000 && itemId < 5540000);
     }
 }

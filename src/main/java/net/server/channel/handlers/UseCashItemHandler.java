@@ -50,6 +50,8 @@ import server.maps.*;
 import service.NoteService;
 import tools.PacketCreator;
 import tools.Pair;
+import net.server.channel.handlers.ItemRewardHandler;
+import tools.Randomizer;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -548,6 +550,44 @@ public final class UseCashItemHandler extends AbstractPacketHandler {
             c.sendPacket(PacketCreator.enableActions());
             c.sendPacket(PacketCreator.sendHammerData(equip.getVicious()));
             player.forceUpdateItem(equip);
+        } else if (itemType == 553) { //Coupon
+            byte slot = (byte) p.readShort();
+            Item it = c.getPlayer().getInventory(InventoryType.CASH).getItem(slot);
+
+            if (it == null || it.getItemId() != itemId || c.getPlayer().getInventory(InventoryType.CASH).countById(itemId) < 1) {
+                System.out.println("item is not in USE, null");
+                return;
+            }
+
+            Pair<Integer, List<ItemInformationProvider.RewardItem>> rewards = ii.getItemReward(itemId);
+            for (ItemInformationProvider.RewardItem reward : rewards.getRight()) {
+                if (!InventoryManipulator.checkSpace(c, reward.itemid, reward.quantity, "")) {
+                    c.sendPacket(PacketCreator.getShowInventoryFull());
+                    break;
+                }
+                if (Randomizer.nextInt(rewards.getLeft()) <= reward.prob) {//Is it even possible to get an item with prob 1?
+                    if (ItemConstants.getInventoryType(reward.itemid) == InventoryType.EQUIP) {
+                        final Item item = ii.getEquipById(reward.itemid);
+                        if (reward.period != -1) {
+                            // TODO is this a bug, meant to be 60 * 60 * 1000?
+                            item.setExpiration(currentServerTime() + reward.period * 60 * 60 * 10);
+                        }
+                        InventoryManipulator.addFromDrop(c, item, false);
+                    } else {
+                        InventoryManipulator.addById(c, reward.itemid, reward.quantity, "", -1);
+                    }
+                    InventoryManipulator.removeById(c, InventoryType.USE, itemId, 1, false, false);
+                    if (reward.worldmsg != null) {
+                        String msg = reward.worldmsg;
+                        msg.replaceAll("/name", c.getPlayer().getName());
+                        msg.replaceAll("/item", ii.getName(reward.itemid));
+                        Server.getInstance().broadcastMessage(c.getWorld(), PacketCreator.serverNotice(6, msg));
+                    }
+                    break;
+                }
+            }
+            c.sendPacket(PacketCreator.enableActions());
+
         } else if (itemType == 561) { //VEGA'S SPELL
             if (p.readInt() != 1) {
                 return;
