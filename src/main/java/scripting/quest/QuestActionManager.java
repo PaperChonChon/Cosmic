@@ -78,8 +78,8 @@ public class QuestActionManager extends NPCConversationManager {
     }
 
     @Override
-    public void gainMeso(int gain) {
-        MesoAction.runAction(getPlayer(), gain);
+    public void gainMeso(Double gain) {
+        getPlayer().gainMeso(gain.intValue());
     }
 
     public String getMedalName() {  // usable only for medal quests (id 299XX)
