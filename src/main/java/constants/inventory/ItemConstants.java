@@ -105,7 +105,7 @@ public final class ItemConstants {
     }
 
     public static boolean isPet(int itemId) {
-        return itemId / 1000 == 5000;
+        return (itemId / 1000 == 5000 || itemId / 1000 == 5001 || itemId / 1000 == 5002);
     }
 
     public static boolean isExpirablePet(int itemId) {
