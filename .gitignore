@@ -1,12 +1,13 @@
-/logs/**
+/logs/
 .idea/
 *.iml
-/target
+/target/
 /current_backup/
 /tools/
 *.bat
 *.txt
 *.jpg
+*.yaml
 
 # build files
 /build/
