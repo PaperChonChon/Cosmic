@@ -41,7 +41,7 @@ public class CouponInstaller {
         i = token.indexOf("\"", i) + 1; //lower bound of the string
         j = token.indexOf("\"", i);     //upper bound
 
-        dest = new char[8];
+        dest = new char[j - i];
         token.getChars(i, j, dest, 0);
 
         d = new String(dest);
